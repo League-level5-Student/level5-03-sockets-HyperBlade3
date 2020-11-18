@@ -38,7 +38,7 @@ public class ButtonClicker extends JFrame {
 			setTitle("CLIENT");
 			String ipStr = JOptionPane.showInputDialog("Enter the IP Address");
 			String prtStr = JOptionPane.showInputDialog("Enter the port number");
-			int port = Integer.parseInt(prtStr);
+			int port = Integer.parseInt(prtStr );
 			client = new Client(ipStr, port);
 			button.addActionListener((e)->{
 				client.sendClick();
