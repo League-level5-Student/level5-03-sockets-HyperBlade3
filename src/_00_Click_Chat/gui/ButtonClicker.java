@@ -34,7 +34,6 @@ public class ButtonClicker extends JFrame {
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			server.start();
 			
-		}else{
 			setTitle("CLIENT");
 			String ipStr = JOptionPane.showInputDialog("Enter the IP Address");
 			String prtStr = JOptionPane.showInputDialog("Enter the port number");
